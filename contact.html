@@ -1,0 +1,97 @@
+
+<!-- page for contact information -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navigate betweeen Home, About, Contact -->
+     <!-- Implimented a <nav> tag to display the navigation items in a list -->
+        <!-- changed link name of "about.html" from "About" to "More" to align with rest of website content -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">More</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1>Follow us for more!</h1>
+
+    <!-- Table to display socials -->
+     <!-- added thead and tbody tags to the table -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Site</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Facebook</td>
+                <td><a href="#">Visit our Facebook</a></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Instagram</td>
+                <td><a href="#">Visit our Instagram</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- form to gather contact info from user -->
+     <!-- seperated lines out for readability. Added line breaks to move the text boxes below their respective label. Added a complaints box as per customer request -->
+      <!-- I removed the <br> for the line breaks and challenged myself by putting the form into a table! -->
+
+    <h2>Contact us</h2>
+
+    <table>
+        <form>
+            <tr>
+                <td>
+                    <label>First Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="firstName" placeholder="First Name" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Last Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="lastName" placeholder="Last Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>E-mail:</label>
+                </td>
+                <td>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Complaints:</label>
+                </td>
+                <td>
+                    <input type="complaints" name="complaints" placeholder="Complaints"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </form>
+    </table>
+
+</body>
+</html>
